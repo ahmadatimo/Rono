@@ -1,0 +1,96 @@
+body{
+    background-color: #353535;
+}
+
+.header /* the div that has rono logo and the contact us button*/
+{
+    display: flex;                                               /* That what puts the divs next to each other in same line.*/
+    justify-content: space-between;                             /* That what puts the divs at the end of the line.*/
+    align-items: flex-start;
+}
+
+.Logo_root__QiOW9                                               /* the logo div*/
+{
+   align-items: flex-start;
+   width: 135px;
+   margin-left: 110px;
+   margin-top: 15px;
+}
+
+.contactDiv                                                     /*The div that has "contact us" button. */
+{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    margin-right: 50px;
+}
+#contactButton                                                  /*inside the contactDiv*/
+{
+    display: flex;
+    width: 200px;
+    border-radius:50px;
+    align-items: center;
+    background-color: #24FFBA;
+}
+.contactIconDiv                                                  /*inside the contactButton*/
+{
+    align-self: center;
+    margin-left: 18px;
+    height: 30px;
+    width: 30px;
+}
+.contactTextDiv
+{
+    align-self: center;
+    height: 50px;
+    width: 105px;
+}
+.contactText
+{
+    align-self: center;
+    font-weight: bold;
+    margin-left: 8px;
+    margin-top: 16px;
+    font-size: 18px;
+}
+.ContactButton_Property1Default_icon__zPaqa
+{
+    align-self: center;
+    height: 25px;
+    width: 100%;
+    height: 100%;
+    margin-right: 10px;
+    
+}
+
+
+.lampDiv
+{
+    display:flex;
+    margin-top: 150px;
+    align-self: center;
+    align-items: flex-start;
+
+}
+.lampIconDiv
+{
+    width: 100px;
+    height: 100px;
+}
+.lampTextDiv
+{
+    margin-left: 50px;
+}
+.AsRonoWeSupportOurCustomersToI_icon__mvouR
+{
+    align-self: center;
+    height: 25px;
+    width: 100%;
+    height: 100%;
+    margin-right: 10px;
+    
+}
+.lampText
+{
+    color: white;
+}
