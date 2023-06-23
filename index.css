@@ -1,12 +1,15 @@
 body{
     background-color: #353535;
+    overflow-x: hidden;
 }
 
 .header /* the div that has rono logo and the contact us button*/
 {
+   /* position: fixed;*/
     display: flex;                                               /* That what puts the divs next to each other in same line.*/
     justify-content: space-between;                             /* That what puts the divs at the end of the line.*/
     align-items: flex-start;
+    
 }
 
 .Logo_root__QiOW9                                               /* the logo div*/
@@ -34,6 +37,7 @@ body{
 }
 .contactIconDiv                                                  /*inside the contactButton*/
 {
+    
     align-self: center;
     margin-left: 18px;
     height: 30px;
@@ -63,6 +67,74 @@ body{
     
 }
 
+.midOfHeader    
+{
+    display: flex;
+    align-items: flex-start;
+}
+.firstMidOfHeader
+{
+    display: flex;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    align-self: center;
+    margin-left: 150px;
+}
+.secondMidOfHeader
+{
+    align-self: center;
+    margin-left: 150px;
+    width: 550px;
+}
+.thirdMidOfHeader
+{
+    width: 450px;
+    left: 450px;
+    margin-top: 75px;
+    position: absolute;
+    left: 1300px;
+
+}
+.TextOf1stMidHeader
+{
+    align-self: center;
+}
+.ArrowShape
+{
+    align-items: self-start;
+    width: 150px;
+    height: 100px;
+    margin-top: 345px;
+    margin-left: -190px;
+}
+.TextOf1stMid
+{
+    color: white;
+    font-size: 100px;
+}
+.Desktop1440Responsive_icon13__IA1Tp
+{
+    align-self: center;
+    height: 25px;
+    width: 100%;
+    height: 100%;
+    margin-right: 10px;
+}
+.Desktop1440Responsive_icon3__gU7Dh
+{
+    align-self: center;
+    height: 25px;
+    width: 100%;
+    height: 100%;
+    margin-right: 10px;
+}
+.Desktop1440Responsive_icon2__VZDEt
+{
+    align-self: center;
+    height: 25px;
+    width: 100%;
+    height: 100%;
+    margin-right: 10px;
+}
 
 .lampDiv
 {
@@ -74,8 +146,10 @@ body{
 }
 .lampIconDiv
 {
+    margin-top: 15px;
     width: 100px;
     height: 100px;
+    margin-left: 350px;
 }
 .lampTextDiv
 {
@@ -92,5 +166,33 @@ body{
 }
 .lampText
 {
+    font-size: 25px;
     color: white;
+}
+
+.card
+{
+    display: flex;
+    fill:rgb(220, 220, 220);
+    position: relative;
+    margin-top: 50px;
+    z-index: 1;                                     /* this line will allow overlapping the higher the number the front it will become*/
+}
+.Desktop1440Responsive_icon__H5+uN
+{
+    position: absolute;
+
+}
+.sol_Div
+{
+    display: flex;
+    z-index: 2;
+    
+}
+.solutions
+{
+    font-weight: bold;
+    font-family:Instrument Sans,system-ui,-apple-system,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,Liberation Sans,sans-serif;
+    font-size: 64px;
+    color:#353535;
 }
