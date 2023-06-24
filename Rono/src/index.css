@@ -185,14 +185,15 @@ body{
 .card
 {
     display: flex;
-    fill:rgb(220, 220, 220);
+    fill:rgb(220, 220, 200);
     position: relative;
     margin-top: 50px;
 }
 .Desktop1440Responsive_icon__H5+uN
 {
     position: relative;
-
+    height: 100%;
+    width: 100%;
 }
 .sol_Div
 {
@@ -729,4 +730,52 @@ body{
 {
     font-family: Wix Madefor Text,system-ui,-apple-system,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,Liberation Sans,sans-serif;
     font-size: 20px;
+}
+
+.footer
+{
+    fill: #353535;
+    position: relative;
+    display: flex;
+    height: 500px;
+}
+.footerLogo
+{
+    position: relative;
+    display: flex;
+    height: 40px;
+    width: 136px;
+    margin-top: 80px;
+    left: 150px;
+}
+.Desktop1440Responsive_icon6__ZzET9
+{
+    height: 100%;
+    width: 100%;
+}
+.smallWord
+{
+    position: relative;
+    display: flex;
+    margin-top: 125px;
+    color: floralwhite;
+    font-family: Instrument Sans,system-ui,-apple-system,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,Liberation Sans,sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    left: 11px;
+}
+.smallEnvDiv
+{
+    position: relative;
+    display: flex;
+    left: 11px;
+    width: 30px;
+    height: 30px;
+    margin-top: 110px ;
+    margin-left: 1000px;
+}
+.envlope
+{
+    height: 100%;
+    width: 100%;
 }
