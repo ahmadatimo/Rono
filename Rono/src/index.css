@@ -9,7 +9,15 @@ body{
     display: flex;                                               /* That what puts the divs next to each other in same line.*/
     justify-content: space-between;                             /* That what puts the divs at the end of the line.*/
     align-items: flex-start;
-    
+    position: fixed;
+    background-color: #353535;
+    width: 100%; /* Set the width to 100% to cover the entire width of the webpage */
+    height: 80px;
+    overflow: hidden;
+    z-index: 1;                                       /* Set a high value for z-index to make it appear above other elements */
+    left: 0; /* Align the left edge of the div to the left edge of the webpage */
+    right: 0; /* Align the right edge of the div to the right edge of the webpage */
+    top: 0; /* Align the right edge of the div to the right edge of the webpage */
 }
 
 .Logo_root__QiOW9                                               /* the logo div*/
@@ -29,10 +37,13 @@ body{
 }
 #contactButton                                                  /*inside the contactDiv*/
 {
+    position: absolute;
     display: flex;
     width: 200px;
     border-radius:50px;
     align-items: center;
+    top: 5px;
+    left: 1250px;
     background-color: #24FFBA;
 }
 .contactIconDiv                                                  /*inside the contactButton*/
@@ -71,6 +82,7 @@ body{
 {
     display: flex;
     align-items: flex-start;
+    margin-top: 100px;
 }
 .firstMidOfHeader
 {
@@ -92,7 +104,7 @@ body{
     margin-top: 75px;
     position: absolute;
     left: 1300px;
-
+    overflow: visible;
 }
 .TextOf1stMidHeader
 {
@@ -205,40 +217,516 @@ body{
 }
 .firstBox
 {
-    display: flex;                                               /* That what puts the divs next to each other in same line.*/
-    align-items:flex-start;
+    display: flex;
+    align-items: flex-start;
     background-color: #dcdcdc;
     border-bottom-left-radius: 60px;
     border-bottom-right-radius: 60px;
     border-top-left-radius: 60px;
     border-top-right-radius: 60px;
-    box-shadow:  0 10px 20px 0 #00000040;
+    box-shadow: 0 10px 20px 0 #00000040;
     height: 50px;
-    left: calc(50% - 279px);
+    left: calc(50% - 292px);
     overflow: hidden;
     position: absolute;
-    top: 200px;
+    top: -38px;
     transform: translateX(-50%);
     width: 440px;
     height: 440px;
 }
-.title1Div
+.circle
 {
     position: absolute;
-    left: 50%;
+    right: 261px;
+    top: 249px;
+    width: 991px;
+    height: 966px;
+}
+.Desktop1440Responsive_icon5__jPJ88
+{
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+.row1
+{
+    display: flex;                                               /* That what puts the divs next to each other in same line.*/
+    align-items: flex-start;
+}
+.title1Div
+{    
+    position: relative;
+    right: 256px;
+    display: flex;
+    margin-top: 25px;
 }
 .title1Txt
 {
-    font-size: 50px;
-    color: #353535;
+    position: fixed;
+    font-size: 34px;
+    font-family: Sans,system-ui,-apple-system,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,Liberation Sans,sans-serif;
+    font-weight: bold;
 }
 .img1Div
 {
-    height: 50px;
-    width: 50px;
+    position: fixed;
+    height: 114px;
+    width: 114px;
+    right: 50px;
+    margin-top: 61px;
 }
 .Desktop1440Responsive_icon7__6zw+n
 {
+    height: 100%;
+    width: 100%;
+}
+.info1Div
+{
+    position: fixed;
+    top: 198px;
+    right: 109px;
+}
+.info1Txt
+{
+    font-family: Wix Madefor Text,system-ui,-apple-system,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,Liberation Sans,sans-serif;
+    font-size: 20px;
+}
+.secondBox
+{
+    display: flex;
+    align-items: flex-start;
+    background-color: #dcdcdc;
+    border-bottom-left-radius: 60px;
+    border-bottom-right-radius: 60px;
+    border-top-left-radius: 60px;
+    border-top-right-radius: 60px;
+    box-shadow: 0 10px 20px 0 #00000040;
     height: 50px;
-    width: 50px;
+    left: calc(50% + 295px);
+    overflow: hidden;
+    position: absolute;
+    top: -38px;
+    transform: translateX(-50%);
+    width: 440px;
+    height: 440px;
+}
+.row2
+{
+    display: flex;                                               /* That what puts the divs next to each other in same line.*/
+    align-items: flex-start;
+}
+.title2Div
+{    
+    position: relative;
+    right: 256px;
+    display: flex;
+    margin-top: 25px;
+}
+.title2Txt
+{
+    position: fixed;
+    font-family: Instrument Sans,system-ui,-apple-system,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,Liberation Sans,sans-serif;
+    font-size: 34px;
+    font-weight: bold;
+}
+.img2Div
+{
+    position: fixed;
+    height: 114px;
+    width: 114px;
+    right: 50px;
+    margin-top: 61px;
+}
+.Desktop1440Responsive_icon8__B1pTA{
+    height: 100%;
+    width: 100%;
+}
+.info2Div
+{
+    position: fixed;
+    top: 242px;
+    right: 67px;
+}
+.info2Txt
+{
+    font-family: Wix Madefor Text,system-ui,-apple-system,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,Liberation Sans,sans-serif;
+    font-size: 20px;
+}
+.secondLine
+{
+    display: flex;                                               /* That what puts the divs next to each other in same line.*/
+    justify-content: space-between;                              /* That what puts the divs at the end of the line.*/
+    align-items: flex-start;
+}
+.thirdBox
+{
+    display: flex;
+    align-items: flex-start;
+    background-color: #dcdcdc;
+    border-bottom-left-radius: 60px;
+    border-bottom-right-radius: 60px;
+    border-top-left-radius: 60px;
+    border-top-right-radius: 60px;
+    box-shadow: 0 10px 20px 0 #00000040;
+    height: 50px;
+    left: calc(50% - 292px);
+    overflow: hidden;
+    position: absolute;
+    top: 534px;
+    transform: translateX(-50%);
+    width: 440px;
+    height: 440px;
+}
+.row3
+{
+    display: flex;                                               /* That what puts the divs next to each other in same line.*/
+    align-items: flex-start;
+}
+.title3Div
+{
+    position: relative;
+    right: 256px;
+    display: flex;
+    margin-top: 25px;
+}
+.title3Txt
+{
+    position: fixed;
+    font-family: Instrument Sans,system-ui,-apple-system,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,Liberation Sans,sans-serif;
+    font-size: 34px;
+    font-weight: bold;
+}
+.img3Div
+{
+    position: fixed;
+    height: 114px;
+    width: 114px;
+    right: 50px;
+    margin-top: 61px;
+}
+.Desktop1440Responsive_icon9__c0u+w
+{
+    height: 100%;
+    width: 100%;
+}
+.info3Div
+{
+    position: fixed;
+    top: 242px;
+    right: 67px;
+}
+.info3Txt
+{
+    font-family: Wix Madefor Text,system-ui,-apple-system,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,Liberation Sans,sans-serif;
+    font-size: 20px;
+}
+.fourthBox
+{
+    display: flex;
+    align-items: flex-start;
+    background-color: #dcdcdc;
+    border-bottom-left-radius: 60px;
+    border-bottom-right-radius: 60px;
+    border-top-left-radius: 60px;
+    border-top-right-radius: 60px;
+    box-shadow: 0 10px 20px 0 #00000040;
+    height: 50px;
+    left: calc(50% + 295px);
+    overflow: hidden;
+    position: absolute;
+    top: 534px;
+    transform: translateX(-50%);
+    width: 440px;
+    height: 440px;
+}
+.row4
+{
+    display: flex;                                               /* That what puts the divs next to each other in same line.*/
+    align-items: flex-start;
+}
+.title4Div
+{
+    position: relative;
+    right: 256px;
+    display: flex;
+    margin-top: 25px;
+}
+.title4Txt
+{
+    position: fixed;
+    font-family: Instrument Sans,system-ui,-apple-system,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,Liberation Sans,sans-serif;
+    font-size: 34px;
+    font-weight: bold;
+}
+.img4Div
+{
+    position: fixed;
+    height: 114px;
+    width: 114px;
+    right: 50px;
+    margin-top: 61px;
+}
+.Desktop1440Responsive_icon9__c0u+w
+{
+    height: 100%;
+    width: 100%;
+}
+.info4Div
+{
+    position: fixed;
+    top: 242px;
+    right: 67px;
+}
+.info4Txt
+{
+    font-family: Wix Madefor Text,system-ui,-apple-system,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,Liberation Sans,sans-serif;
+    font-size: 20px;
+}
+.training
+{
+    display: flex;                                               /* That what puts the divs next to each other in same line.*/
+    position: absolute;
+    top: 1500px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.trainingTxt
+{
+    font-weight: bold;
+    font-family:Instrument Sans,system-ui,-apple-system,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,Liberation Sans,sans-serif;
+    font-size: 64px;
+    color:#353535;
+}
+.Desktop1440Responsive_rectangle2__P9nBn
+{
+    display: flex;                                               /* That what puts the divs next to each other in same line.*/
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    top: 1900px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    fill: #24ffb5;
+    background-color: #24ffb5;
+    overflow-x: auto;
+}
+.thirdLine
+{
+    display: flex;                                               /* That what puts the divs next to each other in same line.*/
+    justify-content: space-between;                              /* That what puts the divs at the end of the line.*/
+    align-items: flex-start;
+
+}
+.fifthBox
+{
+    display: flex;
+    align-items: flex-start;
+    background-color: #dcdcdc;
+    border-bottom-left-radius: 60px;
+    border-bottom-right-radius: 60px;
+    border-top-left-radius: 60px;
+    border-top-right-radius: 60px;
+    box-shadow: 0 10px 20px 0 #00000040;
+    height: 50px;
+    left: calc(50% - 292px);
+    overflow: hidden;
+    position: absolute;
+    top: 1675px;
+    transform: translateX(-50%);
+    width: 440px;
+    height: 440px;
+}
+.title5Div
+{    
+    position: relative;
+    right: 201px;
+    display: flex;
+    margin-top: 25px;
+}
+.title5Txt
+{
+    position: fixed;
+    font-size: 34px;
+    font-family: Sans,system-ui,-apple-system,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,Liberation Sans,sans-serif;
+    font-weight: bold;
+}
+.img5Div1
+{
+    position: fixed;
+    display: flex;                                               /* That what puts the divs next to each other in same line.*/
+    height: 53px;
+    width: 42px;
+    right: 134px;
+    margin-top: 61px;
+}
+.Component1_icon__nehPh
+{
+    height: 100%;
+    width: 100%;
+}
+.img5Div2
+{
+    position: fixed;
+    display: flex;                                               /* That what puts the divs next to each other in same line.*/
+    height: 40px;
+    width: 97px;
+    right: 34px;
+    margin-top: 67px;
+}
+.Component1_icon2__YcQfD
+{
+    height: 100%;
+    width: 100%;
+}
+.Desktop1440Responsive_icon7__6zw+n
+{
+    height: 100%;
+    width: 100%;
+}
+.info5Div
+{
+    position: fixed;
+    top: 198px;
+    right: 109px;
+}
+.info5Txt
+{
+    font-family: Wix Madefor Text,system-ui,-apple-system,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,Liberation Sans,sans-serif;
+    font-size: 20px;
+}
+.sixthBox
+{
+    display: flex;
+    align-items: flex-start;
+    background-color: #dcdcdc;
+    border-bottom-left-radius: 60px;
+    border-bottom-right-radius: 60px;
+    border-top-left-radius: 60px;
+    border-top-right-radius: 60px;
+    box-shadow: 0 10px 20px 0 #00000040;
+    height: 50px;
+    left: calc(50% + 295px);
+    overflow: hidden;
+    position: absolute;
+    top: 1675px;
+    transform: translateX(-50%);
+    width: 440px;
+    height: 440px;
+}
+.title6Div
+{    
+    position: relative;
+    right: 195px;
+    display: flex;
+    margin-top: 25px;
+}
+.title6Txt
+{
+    position: fixed;
+    font-family: Instrument Sans,system-ui,-apple-system,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,Liberation Sans,sans-serif;
+    font-size: 34px;
+    font-weight: bold;
+}
+.img6Div
+{
+    position: fixed;
+    height: 114px;
+    width: 114px;
+    right: 50px;
+    margin-top: 61px;
+}
+.Desktop1440Responsive_icon8__B1pTA{
+    height: 100%;
+    width: 100%;
+}
+.info6Div
+{
+    position: fixed;
+    top: 242px;
+    right: 43px;
+}
+.info6Txt
+{
+    font-family: Wix Madefor Text,system-ui,-apple-system,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,Liberation Sans,sans-serif;
+    font-size: 20px;
+}
+.services
+{
+    display: flex;                                               /* That what puts the divs next to each other in same line.*/
+    position: absolute;
+    top: 2300px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.servicesTxt
+{
+    font-weight: bold;
+    font-family:Instrument Sans,system-ui,-apple-system,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,Liberation Sans,sans-serif;
+    font-size: 64px;
+    color:#353535;
+}
+.star
+{
+    position:absolute;
+    left: 275px;
+    top: 2350px;
+    height: 450px;
+}
+#starImg
+{
+    width: 100%;
+    height: 100%;
+}
+.lastBox
+{
+    position: absolute;
+    display: flex;
+    border-bottom-left-radius: 60px;
+    border-bottom-right-radius: 60px;
+    border-top-left-radius: 60px;
+    border-top-right-radius: 60px;
+    box-shadow: 0 10px 20px 0 #00000040;
+    background-color: #dcdcdc;
+    top: 2480px;
+    left: 425px;
+    height: 350px;
+    width: 750px;
+}
+.titleLDiv
+{
+    position: absolute;
+    display: flex;
+    right: 435px;
+    margin-top: 25px;
+}
+.lastTitle
+{
+    font-family: Instrument Sans,system-ui,-apple-system,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,Liberation Sans,sans-serif;
+    font-size: 34px;
+    font-weight: bold;
+    color: black;
+}
+.lastImgDiv
+{
+    position: absolute;
+    height: 96px;
+    width: 181px;
+    right: 167px;
+    margin-top: 54px;
+}
+.Desktop1440Responsive_icon10__NjVL4
+{
+    height: 100%;
+    width: 100%;
+}
+.infoLDiv
+{
+    position: relative;
+    top: 156px;
+    right: 71px;
+}
+.infoLTxt
+{
+    font-family: Wix Madefor Text,system-ui,-apple-system,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,Liberation Sans,sans-serif;
+    font-size: 20px;
 }
